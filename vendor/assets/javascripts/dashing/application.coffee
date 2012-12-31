@@ -3,7 +3,9 @@
 #= require dashing.js
 
 #= require_directory .
-#= require_tree ./
+#= require_tree ../../../../app/dashing/widgets
+
+Batman.config.viewPrefix = "dashing/views"
 
 console.log("Yeah! The dashboard has started!")
 
