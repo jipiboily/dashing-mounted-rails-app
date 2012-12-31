@@ -3,7 +3,7 @@
 #= require dashing.js
 
 #= require_directory .
-#= require_tree ../../widgets
+#= require_tree ./
 
 console.log("Yeah! The dashboard has started!")
 
