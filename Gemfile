@@ -36,3 +36,9 @@ gem 'jquery-rails'
 
 # To use debugger
 # gem 'debugger'
+
+gem 'dashing', path: '/Users/jipiboily/code/dashing', require: false
+
+group :development do
+  gem 'pry'
+end
